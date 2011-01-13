@@ -1,0 +1,11 @@
+= semantic_form_for @produto do |f|  
+  - f.inputs do
+    = f.input :nome, :label => 'Nome'
+    = f.input :preco, :label => 'Preco'
+    = f.input :descricao, :label => 'Descricao'
+    = f.input :status, :label => 'Status'
+    = f.input :quantidade, :label => 'Quantidade'
+    = f.input :dono, :label => 'Dono'
+    = f.input :email, :label => 'Email'
+
+  = f.buttons
