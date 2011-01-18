@@ -1,4 +1,7 @@
 pt-BR:
+  produtos:
+    index:
+      titulo: "Lista de Produtos"
   # formatos de data e hora
   date:
     formats:
